@@ -50,7 +50,7 @@
             this.BtnVolume.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnVolume.Font = new System.Drawing.Font("Comic Sans MS", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVolume.ForeColor = System.Drawing.Color.LightYellow;
-            this.BtnVolume.Location = new System.Drawing.Point(96, 104);
+            this.BtnVolume.Location = new System.Drawing.Point(47, 88);
             this.BtnVolume.Name = "BtnVolume";
             this.BtnVolume.Size = new System.Drawing.Size(110, 46);
             this.BtnVolume.TabIndex = 8;
@@ -71,7 +71,7 @@
             this.BtnChapter.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnChapter.Font = new System.Drawing.Font("Comic Sans MS", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnChapter.ForeColor = System.Drawing.Color.LightYellow;
-            this.BtnChapter.Location = new System.Drawing.Point(96, 52);
+            this.BtnChapter.Location = new System.Drawing.Point(47, 36);
             this.BtnChapter.Name = "BtnChapter";
             this.BtnChapter.Size = new System.Drawing.Size(110, 46);
             this.BtnChapter.TabIndex = 8;
@@ -92,7 +92,7 @@
             this.BtnOrderFile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnOrderFile.Font = new System.Drawing.Font("Comic Sans MS", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnOrderFile.ForeColor = System.Drawing.Color.LightYellow;
-            this.BtnOrderFile.Location = new System.Drawing.Point(211, 104);
+            this.BtnOrderFile.Location = new System.Drawing.Point(162, 88);
             this.BtnOrderFile.Name = "BtnOrderFile";
             this.BtnOrderFile.Size = new System.Drawing.Size(110, 46);
             this.BtnOrderFile.TabIndex = 8;
@@ -109,7 +109,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(96, 172);
+            this.progressBar1.Location = new System.Drawing.Point(47, 146);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(225, 23);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
@@ -126,7 +126,7 @@
             this.BtnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnOrder.Font = new System.Drawing.Font("Comic Sans MS", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnOrder.ForeColor = System.Drawing.Color.LightYellow;
-            this.BtnOrder.Location = new System.Drawing.Point(211, 52);
+            this.BtnOrder.Location = new System.Drawing.Point(162, 36);
             this.BtnOrder.Name = "BtnOrder";
             this.BtnOrder.Size = new System.Drawing.Size(110, 46);
             this.BtnOrder.TabIndex = 8;
@@ -152,9 +152,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::GoToCommic.Properties.Resources.melhores_animes_de_todos_os_tempos;
+            this.BackgroundImage = global::GoToCommic.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(436, 233);
+            this.ClientSize = new System.Drawing.Size(323, 179);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.BtnChapter);
             this.Controls.Add(this.BtnOrder);
