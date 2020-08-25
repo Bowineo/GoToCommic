@@ -444,7 +444,7 @@ namespace Gotocommic
             foreach (DirectoryInfo subdirectory in dirInfo.GetDirectories())
             {
                 string[] files = SearchByExtensions(subdirectory.FullName);
-                Qtd_files += files.Length;
+                Qtd_files += files.Length + 10;
             }
             return Qtd_files + Qtd_directory;
         }
