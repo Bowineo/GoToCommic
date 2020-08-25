@@ -88,7 +88,7 @@ namespace Gotocommic
                 }
                 progressBar1.Value = (progressBar1.Maximum);
                 StatusProgress(Pasta_Arquivos.SelectedPath, progressBar1, false);
-                MessageBox.Show("Rename done!");
+                MessageBox.Show("Complete Order");
             }
         }
 
@@ -101,7 +101,7 @@ namespace Gotocommic
                 FolderPath = Pasta_Arquivos.SelectedPath;
                 string[] FileNames = OrderInArray(FolderPath);
                 RenameInOrder(FileNames, FolderPath);
-                MessageBox.Show("Complete Order");
+                MessageBox.Show("Complete Order by file");
             }
             else { return; }
         }
