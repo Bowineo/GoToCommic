@@ -402,6 +402,23 @@ namespace Gotocommic
         }
 
         /// <summary>
+        /// Formata o index de modo que fique com 4 caracteres
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns>string representando o index com 4 caracteres</returns>
+        public string FormataId(int index)
+        {
+            string seq = index.ToString();
+
+            while (seq.Length < 4 )
+            {
+                seq = "0" + seq;
+            }
+
+            return seq;
+        }
+
+        /// <summary>
         /// Rename files following file .txt
         /// </summary>
         /// <param name="Filenames"></param>
@@ -414,7 +431,10 @@ namespace Gotocommic
                 for (int i = 0; i < Filenames.Length; i++)
                 {
                     string source = FolderPath + @"\" + Filenames[i];
-                    string destiny = FolderPath + @"\" + (i + 1).ToString() + "_" + Filenames[i];
+
+                    string increment = FormataId((i + 1));
+
+                    string destiny = FolderPath + @"\" + increment + "_" + Filenames[i];
 
                     System.IO.File.Copy(source, destiny, true);
                 }
